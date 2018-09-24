@@ -6,13 +6,13 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 @JsonInclude(Include.NON_NULL)
 public class Coordinates {
 		
-	private Long longitude;
-	private Long latitude;
+	private Double longitude;
+	private Double latitude;
 	
 	
-	public Long getLongitude() { return longitude; }
-	public void setLongitude(Long longitude) { this.longitude = longitude; }
+	public Double getLongitude() { return longitude; }
+	public void setLongitude(Double longitude) { this.longitude = longitude; }
 	
-	public Long getLatitude() { return latitude; }
-	public void setLatitude(Long latitude) { this.latitude = latitude; }
+	public Double getLatitude() { return latitude; }
+	public void setLatitude(Double latitude) { this.latitude = latitude; }
 }
